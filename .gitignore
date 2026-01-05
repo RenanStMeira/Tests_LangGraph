@@ -1,0 +1,34 @@
+# Ignorar arquivos e pastas sensíveis ou desnecessários
+.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+# Ignorar diretórios comuns de ambiente virtual
+venv/
+.env/
+ENV/
+.envrc
+# Ignorar arquivos de configuração do sistema
+Thumbs.db
+# Ignorar arquivos de testes e relatórios
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+# Ignorar arquivos de dependências
+requirements.txt.bak
+# Ignorar arquivos de build
+build/
+dist/
+*.egg-info/
