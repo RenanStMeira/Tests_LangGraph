@@ -70,7 +70,7 @@ graph.add_conditional_edges(
 )
 
 # Definindo enntrada e saida e compilaçao
-graph.set_conditional_entry_point(classificar)
+graph.set_conditional_entry_point("classificar")
 graph.set_finish_point("realizar_calculo", "responder_curiosidades", "respoder_erro")
 export_graph = graph.compile()
 

@@ -9,3 +9,5 @@ langgraph-cli[inmem]
 fastmcp
 langchain-mcp-adapters
 google-generativeai
+langgraph-cli
+langgraph-cli[inmen]
