@@ -1,6 +1,7 @@
 {
     "dependencies": ["."],
     "graphs": {
-      "agent": "teste:export_graph"
+      "agent": "teste:export_graph",
+      "mcp": "agent:agent_mcp"
     }
 }

@@ -7,7 +7,6 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 import os
 from dotenv import load_dotenv
 
-from exemplo2_tool import system_message
 
 # Configs
 load_dotenv()
